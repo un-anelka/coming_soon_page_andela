@@ -130,6 +130,12 @@ footer{
 }
 }
 
+
+#message{
+    color:red;
+    margin-left: 60px;
+}
+
 @media (max-width:375px){
     .container{
         display:grid;
