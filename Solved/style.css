@@ -50,7 +50,13 @@ form{
     font-size:20px;
     padding:10px;
     border-radius: 30px;
-    box-shadow: none;
+    border:hsl(0, 0%, 59%) 2px solid;
+    /* box-shadow: none; */
+}
+
+#email:focus{
+   
+    outline: none;
 }
 #submit{
     background: hsl(223, 87%, 63%);
@@ -58,9 +64,10 @@ form{
     font-size:20px;
     padding:10px;
     border-radius: 30px;
-    box-shadow: none;
+    /* box-shadow: none; */
     color:white;
     font-weight:600;
+    cursor:pointer;
 }
 
 #submit:hover{
@@ -86,6 +93,7 @@ form{
 
 
  i{
+    cursor:pointer;
     text-align: center;
     padding:3px;
     font-size: 50px;
@@ -199,5 +207,14 @@ footer{
             font-size: 30px;
             
         }
-        
-}
+        #message{
+            color:red;
+            margin-left: 35px;
+        }
+
+
+        /* footer{
+            
+            padding: 20px 0;
+        }*/
+} 
